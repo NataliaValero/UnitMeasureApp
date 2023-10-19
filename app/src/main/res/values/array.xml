@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="temperatures">
+        <item>°C</item>
+        <item>°F</item>
+    </string-array>
+
+    <string-array name="measureOptions">
+        <item>Temperatures</item>
+        <item>Weights</item>
+    </string-array>
+
+
+
+
+
+    <string-array name="weight">
+        <item>Kg</item>
+        <item>Lb</item>
+    </string-array>
+
+
+
+</resources>

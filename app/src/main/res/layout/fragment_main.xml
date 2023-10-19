@@ -1,0 +1,111 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.temperatureapp.ui.MainFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@color/teal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unit Mesure"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:padding="20dp"/>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/temperatureBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Temperature"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:backgroundTint="#647679"
+            android:drawableLeft="@drawable/baseline_wb_sunny_24"/>
+
+        <Button
+            android:id="@+id/weightBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Weight"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:backgroundTint="#647679"
+            android:drawableLeft="@drawable/baseline_scale_24"/>
+
+        <Button
+            android:id="@+id/lengthBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Length"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:backgroundTint="#647679"
+            android:drawableLeft="@drawable/baseline_straighten_24"/>
+
+        <Button
+            android:id="@+id/areaBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Area"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:backgroundTint="#647679"
+            android:drawableLeft="@drawable/baseline_square_foot_24"/>
+
+        <Button
+            android:id="@+id/volumeBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Volume"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:backgroundTint="#647679"
+            android:drawableLeft="@drawable/baseline_science_24"/>
+
+
+        <Button
+            android:id="@+id/timeBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Time"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:backgroundTint="#647679"
+            android:drawableLeft="@drawable/baseline_access_time_24"/>
+
+        <Button
+            android:id="@+id/historialBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Historial"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:backgroundTint="#647679"
+            android:drawableLeft="@drawable/baseline_turned_in_24"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.temperatureapp.ui.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_temperatureFragment"
+            app:destination="@id/temperatureFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_historialFragment"
+            app:destination="@id/historialFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/temperatureFragment"
+        android:name="com.example.temperatureapp.ui.ConverterFragment"
+        android:label="fragment_temperature"
+        tools:layout="@layout/fragment_temperature" >
+        <action
+            android:id="@+id/action_temperatureFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/historialFragment"
+        android:name="com.example.temperatureapp.ui.HistorialFragment"
+        android:label="fragment_historial"
+        tools:layout="@layout/fragment_historial" >
+        <action
+            android:id="@+id/action_historialFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+</navigation>
