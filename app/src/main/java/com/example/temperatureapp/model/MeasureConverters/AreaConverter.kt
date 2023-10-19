@@ -15,6 +15,7 @@ class AreaConverter : Converter{
                 MeasureUnits.SQUAREKILOMETER -> convertFromSquareKilometer(value, convertTo)
                 MeasureUnits.SQUARECENTIMETER -> convertFromSquareCentimeter(value, convertTo)
                 MeasureUnits.SQUAREMILIMETER -> convertFromSquareMilimeter(value, convertTo)
+                else -> {}
             }
         }
 
